@@ -1,5 +1,5 @@
 export const wagmiContract = {
-	address: "0x79048c57f1F04FEBAF453Be8cccd6c4cD64Ef709",
+	address: "0xEfE9eE7261b264c49b2d6aC434B3bf01546Ca0E0",
 	abi: [
 		{
 			inputs: [{ internalType: "string", name: "uri", type: "string" }],
@@ -321,6 +321,16 @@ export const wagmiContract = {
 		{
 			inputs: [],
 			name: "unpause",
+			outputs: [],
+			stateMutability: "nonpayable",
+			type: "function",
+		},
+		{
+			inputs: [
+				{ internalType: "string", name: "newuri", type: "string" },
+				{ internalType: "uint256", name: "id", type: "uint256" },
+			],
+			name: "updateURI",
 			outputs: [],
 			stateMutability: "nonpayable",
 			type: "function",
