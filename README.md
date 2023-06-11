@@ -3,7 +3,7 @@
      style="float: left; margin-right: 10px;" />
 # TweetX
 
-Welcome to the decentralized interface for mining tweets as NFTs. Our revolutionary project lets you convert and store any tweet as an NFT simply from its ID, offering a simplified user experience and seamless integration with OpenSea. It's the future of preserving digital cultural moments 🚀.<br>
+Welcome to the decentralized interface for minting tweets as NFTs. Our revolutionary project lets you convert and store any tweet as an NFT simply from its ID, offering a simplified user experience and seamless integration with OpenSea. It's the future of preserving digital cultural moments 🚀.<br>
 
 🐦 Tweet it. Mint it. 🐦
 
@@ -27,6 +27,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Provide a Tweet ID and click "Mint" button to mint that tweet as an NFT🚀!
 
 ## How it works 
+[![TweetX Demo Video](https://img.youtube.com/vi/QqT2FVHNS2k/0.jpg)](https://www.youtube.com/watch?v=QqT2FVHNS2k)
 TweetX is an interface that allows user to mint any tweet into NFTs. When clicked on the "Mint" button, the following steps are executed : 
 - Takes a Tweet ID as input
 - Fetches the tweet details from the Twitter API v2 JS
