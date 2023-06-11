@@ -1,4 +1,4 @@
-<img src="public/tweetX_logo.png"
+<img src="public/tweetX_logo_small.png"
      alt="TweetX icon"
      style="float: left; margin-right: 10px;" />
 # TweetX
@@ -24,7 +24,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 `yarn start`
 - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - Connect your Goerli testnet wallet
-- Provide a Tweet ID and click "Mint" button to mint that tweet as an NFT 🚀 !
+- Provide a Tweet ID and click "Mint" button to mint that tweet as an NFT🚀!
 
 ## How it works 
 TweetX is an interface that allows user to mint any tweet into NFTs. When clicked on the "Mint" button, the following steps are executed : 
@@ -53,13 +53,13 @@ ChatGPT API to summarize the tweet in 3 words
 - `./contracts` contains the ERC1155 NFT smart contract
 - `./public` contains static assets like favicon, manifest etc.
 - `./src` contains the React app code
-- `./doc` contains the documentation of the project
+- `./docs` contains the documentation of the project
 - `tsconfig.json` contains TypeScript config
 - `package.json` contains project dependencies and scripts
 - `.env` contains environment variables
 
 ## Roadmap
-<img src="doc/roadmap.png"
+<img src="docs/roadmap.png"
      alt="TweetX icon"
      style="float: left; margin-right: 10px;" />
 
