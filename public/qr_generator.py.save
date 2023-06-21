@@ -1,0 +1,5 @@
+import qrcode
+qr = qrcode.QRCode(border=4, box_size=10)
+qr.add_data('https://tweetnfts.xyz')
+qr.make(fit=True)
+qr.make_image(fill_color="white", back_color="black")
